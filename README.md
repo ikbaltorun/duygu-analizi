@@ -1,4 +1,4 @@
-# Emotion Recognition System 🧠
+# DUYGU ANALİZ PROGRAMI 🧠
 
 Python, OpenCV ve Keras/TensorFlow kullanarak geliştirilmiş, gerçek zamanlı yüz ifadelerinden duygu tahmini yapan bir Derin Öğrenme projesidir.
 
