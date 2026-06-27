@@ -29,15 +29,18 @@ Projeyi kendi bilgisayarınızda denemek için aşağıdaki adımları sırasıy
    ```bash
    git clone https://github.com/ikbaltorun/duygu-analizi
    ```
-**2. Gerekli Kütüphaneleri Kurun:** Projenin çalışması için ihtiyaç duyulan Derin Öğrenme ve Görüntü İşleme modüllerini yüklemek için şu komutu çalıştırın
+**2. Proje Klasörüne Girin:** İndirilen klasörün içine girmek için şu komutu kullanın
+   ```bash
+   cd duygu-analizi
+   ```
+**3. Gerekli Kütüphaneleri Kurun:** Projenin çalışması için ihtiyaç duyulan Derin Öğrenme ve Görüntü İşleme modüllerini yüklemek için şu komutu çalıştırın
    ```bash
    pip install opencv-python tensorflow keras numpy pandas streamlit
    ```
-**3. Uygulamayı Başlatın:** Web tabanlı Streamlit arayüzünü çalıştırmak ve kamerayı aktif hale getirmek için şu komutu kullanın
+**4. Uygulamayı Başlatın:** Web tabanlı Streamlit arayüzünü çalıştırmak ve kamerayı aktif hale getirmek için şu komutu kullanın
    ```bash
-   streamlit run app.py
+   streamlit run duygu_analizi.py
    ```
-(Not: Eğer çalıştırılacak ana Python dosyanızın adı farklıysa, komuttaki app.py kısmını kendi dosya adınızla değiştirin.)
 
 ---
 *İkbal Torun|2026*
