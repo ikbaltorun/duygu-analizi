@@ -22,7 +22,23 @@ Proje, Convolutional Neural Network (CNN) mimarisi üzerine kuruludur:
 * **Canlı Analiz:** Web kamerası üzerinden anlık duygu tespiti.
 * **Kolay Kullanım:** Streamlit ile şık ve interaktif bir arayüz.
 
-## 🚀 Nasıl Çalıştırılır?
-1. Repoyu klonlayın:
+## 🚀 Kurulum ve Çalıştırma
+Projeyi kendi bilgisayarınızda denemek için aşağıdaki adımları sırasıyla uygulayın:
+
+**1. Repoyu klonlayın:** Terminalinizi açın ve kodları bilgisayarınıza çekmek için şu komutu çalıştırın
    ```bash
-   git clone (https://github.com/ikbaltorun/duygu-analizi)
+   git clone https://github.com/ikbaltorun/duygu-analizi
+   ```
+**2. Gerekli Kütüphaneleri Kurun:** Projenin çalışması için ihtiyaç duyulan Derin Öğrenme ve Görüntü İşleme modüllerini yüklemek için şu komutu çalıştırın
+   ```bash
+   pip install opencv-python tensorflow keras numpy pandas streamlit
+   ```
+**3. Uygulamayı Başlatın:** Web tabanlı Streamlit arayüzünü çalıştırmak ve kamerayı aktif hale getirmek için şu komutu kullanın
+   ```bash
+   streamlit run app.py
+   ```
+(Not: Eğer çalıştırılacak ana Python dosyanızın adı farklıysa, komuttaki app.py kısmını kendi dosya adınızla değiştirin.)
+
+---
+*İkbal Torun|2026*
+
